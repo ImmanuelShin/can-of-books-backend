@@ -114,6 +114,9 @@ typings/
 # nuxt.js build output
 .nuxt
 
+# rest extension file
+route.rest
+
 # vuepress build output
 .vuepress/dist
 
