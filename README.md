@@ -1,7 +1,7 @@
 # Can of Books API
 
 **Author**: Immanuel Shin, Dominique McClaney  
-**Version**: 1.0.1
+**Version**: 1.1.0
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -20,21 +20,31 @@ JavaScript, Express, Cors, Dotenv, MongoDB
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
-12/11/2023 2:00pm - Application has been populated with all prerequisite files.
+12-11-2023 3:00pm - Application now has functioning express server with GET route to location resource.
 
-12/11/2023 3:15pm - Application now has fully functional express server with GET route for the location resource.
+12-12-2023 1:26pm - Application now has functional post and delete routes.
 
 ## Estimates
 <!-- See below -->
-### Storage
+### Book Component
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 2:16 pm
+Start time: 3:20 pm
 
-Finish time: 3:14 pm
+Finish time: 4:20 pm
 
 Actual time needed to complete: 1 hour
+
+### Create/Delete
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 1:00 pm
+
+Finish time: 1:30 pm
+
+Actual time needed to complete: 30 minutes
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
