@@ -22,17 +22,19 @@ JavaScript, Express, Cors, Dotenv, MongoDB
 
 12/11/2023 2:00pm - Application has been populated with all prerequisite files.
 
+12/11/2023 3:15pm - Application now has fully functional express server with GET route for the location resource.
+
 ## Estimates
 <!-- See below -->
-Name of feature:
+### Storage
 
-Estimate of time needed to complete:
+Estimate of time needed to complete: 1 hour
 
-Start time:
+Start time: 2:16 pm
 
-Finish time:
+Finish time: 3:14 pm
 
-Actual time needed to complete:
+Actual time needed to complete: 1 hour
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
