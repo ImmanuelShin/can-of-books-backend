@@ -19,12 +19,13 @@ router.get('/:id', getBook, (req, res) => {
 
 router.post('/', async (req, res) => {
   const book = new Book({
-    title: req.body.title,
-    description: req.body.description,
-    status: req.body.status
+    title: req.body.body.title,
+    description: req.body.body.description,
+    status: req.body.body.status
   });
   try {
     const newBook = await book.save();
+    console.log('Created');
     res.status(201).json(newBook);
   } catch (error) {
     res.status(400).json({ message: error.message });
