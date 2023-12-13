@@ -19,13 +19,27 @@ router.get('/:id', getBook, (req, res) => {
 
 router.post('/', async (req, res) => {
   const book = new Book({
-    title: req.body.body.title,
-    description: req.body.body.description,
-    status: req.body.body.status
+    title: req.body.title,
+    description: req.body.description,
+    status: req.body.status
   });
   try {
     const newBook = await book.save();
     res.status(201).json(newBook);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
+router.put('/:id', getBook, async (req, res) => {
+  try {
+    Object.keys(req.body).forEach((key) => {
+      if (res.book[key] !== undefined) {
+        res.book[key] = req.body[key];
+      }
+    });
+    const updatedBook = await res.book.save();
+    res.json(updatedBook);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
